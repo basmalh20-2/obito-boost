@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.ObitoBoost" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0A0E1F</item>
+        <item name="android:navigationBarColor">#0A0E1F</item>
+        <item name="android:windowBackground">#0A0E1F</item>
+    </style>
+
+    <style name="Theme.ObitoBoost.Splash" parent="Theme.ObitoBoost">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>
