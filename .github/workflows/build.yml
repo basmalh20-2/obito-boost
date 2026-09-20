@@ -24,7 +24,7 @@ jobs:
       
       - name: Build Debug APK
         working-directory: OBITO_BOOST
-        run: gradle assembleDebug
+        run: ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
